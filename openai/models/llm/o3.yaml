@@ -1,7 +1,7 @@
-model: o4-mini-2025-04-16
+model: o3
 label:
-  zh_Hans: o4-mini-2025-04-16
-  en_US: o4-mini-2025-04-16
+  zh_Hans: o3
+  en_US: o3
 model_type: llm
 features:
   - multi-tool-call
@@ -41,7 +41,7 @@ parameter_rules:
   - name: json_schema
     use_template: json_schema
 pricing:
-  input: '1.10'
-  output: '4.40'
+  input: '10.00'
+  output: '40.00'
   unit: '0.000001'
   currency: USD
